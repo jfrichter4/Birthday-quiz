@@ -60,8 +60,6 @@ elif month == "december" and year < 1980:
     print("" + name + ", you are a winter baby of the stone age.")
 elif month == "january" and year > 1980 and year <= 1989:
     print("" + name + ", you are a winter baby of the eighties.")
-elif month == "october" and Day == 31:
-    print("You were born on Halloween!")
 elif month == "february" and year > 1980 and year <= 1989:
     print("" + name + ", you are a winter baby of the eighties.")
 elif month == "march" and year > 1980 and year <= 1989:
@@ -86,8 +84,6 @@ elif month == "december" and year > 1980 and year <= 1989:
     print("" + name + ", you are a winter baby of the eighties.")
 elif month == "january" and year > 1990 and year <= 1999:
     print("" + name + ", you are a winter baby of the nineties.")
-elif month == "october" and Day == 31:
-    print("You were born on Halloween!")
 elif month == "february" and year > 1990 and year <= 1999:
     print("" + name + ", you are a winter baby of the nineties.")
 elif month == "march" and year > 1990 and year <= 1999:
@@ -112,8 +108,6 @@ elif month == "december" and year > 1990 and year <= 1999:
     print("" + name + ", you are a winter baby of the nineties.")
 elif month == "january" and year >= 2000:
     print("" + name + ", you are a winter baby of the 2000s.")
-elif month == "october" and Day == 31:
-    print("You were born on Halloween!")
 elif month == "february" and year >= 2000:
     print("" + name + ", you are a winter baby of the 2000s.")
 elif month == "march" and year >= 2000:
@@ -136,5 +130,3 @@ elif month == "november" and year >= 2000:
     print("" + name + ", you are a fall baby of the 2000s.")
 elif month == "december" and year >= 2000:
     print("" + name + ", you are a winter baby of the 2000s.")
-elif month == "october" and Day == 31:
-    print("You were born on Halloween!")
