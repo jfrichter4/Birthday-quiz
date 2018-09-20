@@ -136,7 +136,5 @@ elif month == "november" and year >= 2000:
     print("" + name + ", you are a Fall baby of the 2000s.")
 elif month == "december" and year >= 2000:
     print("" + name + ", you are a Winter baby of the 2000s.")
-elif month == "january" and year >= 2000:
-    print("" + name + ", you are a Winter baby of the 2000s.")
 elif month == "october" and Day == 31:
     print("You were born on Halloween!")
